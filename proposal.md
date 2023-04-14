@@ -1,4 +1,4 @@
-# Research Proposal: Sea Level Rise effect on Coastal Housing Prices
+# Research Proposal: Sea Level Rise Effect on Coastal Housing Prices
 By BozandtheBozzers: 
 Andrew Bosland, Will Rothpletz, Carter Karinshak, and Linh Thai
 
@@ -22,11 +22,11 @@ Considerations for further data collection include expanding and refining our cr
 Our final data set may look like this:
 
 | City | Month | Year | Price | ChangePrice | TotalWeightedObservations	| GMSL_noGIA | SmoothedGSML_noGIA | GMSL_GIA | SmoothedGSML_GIA | 
- --- | --- | --- | --- || --- | --- || --- | --- || --- | --- 
-| Miami | Jan | 1993 | $ | % |  |  |  |  |  |  |
-| Miami | Feb | 1993 | $ | % |  |  |  |  |  |  |
-| NY | Jan | 1993 | $ | % |  |  |  |  |  |  |
-| NY | Feb | 1993 | $ | % |  |  |  |  |  |  |
+ --- | --- | --- | --- | --- | --- | --- | --- | --- | --- 
+| Miami | Jan | 1993 | $ | % |  |  |  |  |  |
+| Miami | Feb | 1993 | $ | % |  |  |  |  |  |
+| NY | Jan | 1993 | $ | % |  |  |  |  |  |
+| NY | Feb | 1993 | $ | % |  |  |  |  |  |
 
 Currently, we plan to analyze the average monthly listing price of houses in a given city for a grouping of coastal cities that we’ve selected and compare that to the average national listing price of a house. We will also include a random sampling of cities that are not located on the coast to help us determine if there is a significant relationship between housing prices and sea level. The data that we’ve currently included in our inputs folder will serve as a placeholder until we develop a comprehensive and thorough criteria that defines what we will consider to be a coastal city for this analysis. To organize our data, we will create three different subfolders within our inputs folder to help us compartmentalize our analysis. The first folder will contain only information pertaining to the prices of homes in coastal cities and will also contain a file outlining our criteria for what our definition of a coastal city is. The second subfolder will be our control group and will house all of our data for both our random sampling of house prices in non coastal cities and the national averages. Lastly, our third subfolder will contain all of the data we’ve collected with regard to sea level rise. We believe that organizing our folders in such a manner will not only make our repository easier for us to use, but will also help future visitors better understand and interact with our work.
 
