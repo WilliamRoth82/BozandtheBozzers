@@ -3,6 +3,11 @@ By BozandtheBozzers: Andrew Bosland, Will Rothpletz, Carter Karinshak, and Linh 
 
 ## Research Question
 
+Over the past two decades, climate change has become a topical issue that many worry about due to its implications on our planet and quality of life. One effect of increasing temperatures from climate change is 
+
+
+In this project, we are attempting to study the possible correlation between the 
+
 What do we want to know or what problems are we trying to solve? As in the midterm, you should list (1) the “bigger” question/debate/problem you’re interested in, and also (2) the specific research question(s) you’ll actually try to answer.
 
 The research question will be smaller in scope than the big picture question. But the answer to your specific research question should shed light on the bigger question (although it likely won’t conclusively answer it).
