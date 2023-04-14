@@ -22,7 +22,7 @@ Considerations for further data collection include expanding and refining our cr
 Our final data set may look like this:
 
 | City | Month | Year | Price | ChangePrice | TotalWeightedObservations	| GMSL_noGIA | SmoothedGSML_noGIA | GMSL_GIA | SmoothedGSML_GIA | 
-| --- | --- | --- | --- || --- | --- || --- | --- || --- | --- |
+ --- | --- | --- | --- || --- | --- || --- | --- || --- | --- 
 | Miami | Jan | 1993 | $ | % |  |  |  |  |  |  |
 | Miami | Feb | 1993 | $ | % |  |  |  |  |  |  |
 | NY | Jan | 1993 | $ | % |  |  |  |  |  |  |
