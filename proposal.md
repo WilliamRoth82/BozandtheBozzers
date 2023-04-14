@@ -6,7 +6,12 @@ By BozandtheBozzers: Andrew Bosland, Will Rothpletz, Carter Karinshak, and Linh 
 Over the past two decades, climate change has become a topical issue that many worry about due to its implications on our planet and quality of life. One effect of increasing temperatures from climate change is the melting of the polar ice caps which leads to high amounts of fresh water flooding our oceans and the sea level gradually rising. With this sea level rise comes numerous problems, one of which is its impact on coastal cities or homes. As sea levels rise, they erode beaches, reduce usable land, and jeopardize the integrity of structures that were not built in accordance with much higher sea levels. The rising sea level is a major concern for many coastal home owners, and we plan to analyze this problem further. 
 
 
-In this project, we are attempting to study the possible correlation between the 
+In this project, we want to analyze the correlation between the gobal change in sea level and the listing prices for U.S. houses in coastal regions in an
+attempt to measure the relationship bewteen rising sea levels and coastal housing prices. Using our results we want to look at the difference in listing prices changes between the average U.S. home listing price and the coastal U.S. home listing prices to see how changes in sea levels effected the two groups. From the differences, we are hoping to be able to better explain how much changes in sea level are actually effecting the listing value of coastal homes. Finally, using all of our results from our analysis, we will attempt to predict how coastal property listing values will be effected given the estimated rise in U.S. coastal sea waters. Data on our estimated rise over the next 10 years is provided by the National Oceanic and Atmospheric Administration.
+
+
+
+
 
 What do we want to know or what problems are we trying to solve? As in the midterm, you should list (1) the “bigger” question/debate/problem you’re interested in, and also (2) the specific research question(s) you’ll actually try to answer.
 
