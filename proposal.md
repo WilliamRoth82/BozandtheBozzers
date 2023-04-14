@@ -3,7 +3,7 @@ By BozandtheBozzers: Andrew Bosland, Will Rothpletz, Carter Karinshak, and Linh 
 
 ## Research Question
 
-Over the past two decades, climate change has become a topical issue that many worry about due to its implications on our planet and quality of life. One effect of increasing temperatures from climate change is 
+Over the past two decades, climate change has become a topical issue that many worry about due to its implications on our planet and quality of life. One effect of increasing temperatures from climate change is the melting of the polar ice caps which leads to high amounts of fresh water flooding our oceans and the sea level gradually rising. With this sea level rise comes numerous problems, one of which is its impact on coastal cities or homes. As sea levels rise, they erode beaches, reduce usable land, and jeopardize the integrity of structures that were not built in accordance with much higher sea levels. The rising sea level is a major concern for many coastal home owners, and we plan to analyze this problem further. 
 
 
 In this project, we are attempting to study the possible correlation between the 
