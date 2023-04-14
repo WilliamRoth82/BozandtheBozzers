@@ -1,5 +1,5 @@
 Research Proposal: < Sea Level Rise effect on Coastal Housing Prices >¶
-By X, Y, and Z
+By Andrew Bosland, Will Rothpletz, Carter Karinshak, and Linh Thai
 
 Research Question¶
 This section should cover:
