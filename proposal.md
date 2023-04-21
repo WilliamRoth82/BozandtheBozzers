@@ -19,12 +19,12 @@ Considerations for further data collection include expanding and refining our cr
 
 Our final data set may look like this:
 
-| City | Month | Year | Price | ChangePrice | TotalWeightedObservations	| GMSL_noGIA | SmoothedGSML_noGIA | GMSL_GIA | SmoothedGSML_GIA | 
- --- | --- | --- | --- | --- | --- | --- | --- | --- | --- 
-| Miami | Jan | 1993 | $ | % |  |  |  |  |  |
-| Miami | Feb | 1993 | $ | % |  |  |  |  |  |
-| NY | Jan | 1993 | $ | % |  |  |  |  |  |
-| NY | Feb | 1993 | $ | % |  |  |  |  |  |
+| Zip Code | City | Month | Year | Price | ChangePrice | TotalWeightedObservations	| GMSL_noGIA | SmoothedGSML_noGIA | GMSL_GIA | SmoothedGSML_GIA | 
+ --- |--- | --- | --- | --- | --- | --- | --- | --- | --- | --- 
+xxxx1 | Miami | Jan | 1993 | $ | % |  |  |  |  |  |
+xxxx2 | Miami | Feb | 1993 | $ | % |  |  |  |  |  |
+xxxx3 | NY | Jan | 1993 | $ | % |  |  |  |  |  |
+xxxx4 | NY | Feb | 1993 | $ | % |  |  |  |  |  |
 
 Currently, we plan to analyze the median monthly listing price of houses in a specific coastal zip code and compare that to the median house price in the zip codes adjacent to it that are further inland. To organize our data, we will create two different subfolders within our inputs folder to help us compartmentalize our analysis. The first folder will contain only information pertaining to the prices of homes in coastal cities and will also contain a file outlining our criteria for what our definition of a coastal city is. Within this folder, we will first have a grouping of folders to break out our data by city/region so that we may organize our zip codes into a more easily digestible format for our analysis. Each of these folders will then have a series of folders within them for each zip code that we are examining, which will contain the median house prices for the specific coastal zip code and the zip codes adjacent to it. By having a folder for each specific region and zip code we are working with, which contains only the information pertaining to that area of examination, we believe it will be significantly easier to perform our analysis effectively. Along with our folder on median housing prices, our second subfolder will contain all of the data we’ve collected with regard to sea level rise and also any information that is important for someone to know before using the sea level data. We believe that organizing our folders in such a manner will not only make our repository easier for us to use, but will also help future visitors better understand and interact with our work.
 
