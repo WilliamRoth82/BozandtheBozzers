@@ -87,5 +87,6 @@ Using this to map out our selected Zip Codes
 - Coastal: 10010
 
 
+Inland not found: [94123.0, 94108.0, 94131.0, 33306.0, 70117.0, 77013.0] 
 
-
+Coastal not found: [94132.0, 94115.0, 94111.0, 94116.0]
