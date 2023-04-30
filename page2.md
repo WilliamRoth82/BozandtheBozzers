@@ -5,22 +5,22 @@ https://www.unitedstateszipcodes.org/
 Using this to map out our selected Zip Codes
 
 
-**Places (Comparables within 100k Median Home Value)
+Places (Comparables within 100k Median Home Value)
 
-**Daly City (San Fran Comparable)
+Daly City (San Fran Comparable)
 - Inland: 94014
 - Coastal: 94015
 
-**Monterey
+Monterey
 - Inland: 93940
 - Coastal: 93950
 
-**Santa Barbara
+Santa Barbara
 
 - Inland: 93108
 - Coastal: 93109
 
-**Miami
+Miami
 - Indland: 33127
 - Coastal: 33137
 
@@ -30,15 +30,15 @@ Using this to map out our selected Zip Codes
 - Indland: 33130
 - Coastal: 33131
 
-**Fort Lauderdale
+Fort Lauderdale
 - Indland: 33309
 - Coastal: 33308
 
-**Pompano Beach
+Pompano Beach
 - Indland: 33060
 - Coastal: 33062
 
-**New Orleans
+New Orleans
 
 - Indland: 70118
 - Coastal: 70124
@@ -49,11 +49,11 @@ Using this to map out our selected Zip Codes
 - Indland: 70116
 - Coastal: 70126
 
-**Pasadena
+Pasadena
 - Indland: 77504
 - Coastal: 77505
 
-**Houston
+Houston
 - Indland: 77062
 - Coastal: 77058
 
@@ -63,7 +63,7 @@ Using this to map out our selected Zip Codes
 - Indland: 77078
 - Coastal: 77044
 
-**New York
+New York
 
 *(Staten Island)
 - Indland: 10304
@@ -87,6 +87,5 @@ Using this to map out our selected Zip Codes
 - Coastal: 10010
 
 
-Inland not found: [94123.0, 94108.0, 94131.0, 33306.0, 70117.0, 77013.0] 
 
-Coastal not found: [94132.0, 94115.0, 94111.0, 94116.0]
+
