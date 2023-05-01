@@ -7,7 +7,8 @@ Using this to map out our selected Zip Codes
 
 Places (Comparables within 100k Median Home Value)
 
-Daly City (San Fran Comparable)
+California:
+Daly City
 - Inland: 94014
 - Coastal: 94015
 
@@ -20,6 +21,11 @@ Santa Barbara
 - Inland: 93108
 - Coastal: 93109
 
+Pasadena
+- Indland: 77504
+- Coastal: 77505
+
+Florida:
 Miami
 - Indland: 33127
 - Coastal: 33137
@@ -38,8 +44,9 @@ Pompano Beach
 - Indland: 33060
 - Coastal: 33062
 
-New Orleans
 
+Louisiana:
+New Orleans
 - Indland: 70118
 - Coastal: 70124
 
@@ -49,10 +56,8 @@ New Orleans
 - Indland: 70116
 - Coastal: 70126
 
-Pasadena
-- Indland: 77504
-- Coastal: 77505
 
+Texas:
 Houston
 - Indland: 77062
 - Coastal: 77058
@@ -60,8 +65,10 @@ Houston
 - Indland: 77020
 - Coastal: 77015
 
-- Indland: 77078
-- Coastal: 77044
+- Indland: 77078*
+- Coastal: 77044*
+
+
 
 New York
 
@@ -76,8 +83,8 @@ New York
 - Indland: 11204
 - Coastal: 11214
 
-- Indland: 11219
-- Coastal: 11209
+- Indland: 11219*
+- Coastal: 11209*
 
 *(Manhattan)
 - Indland: 10023
