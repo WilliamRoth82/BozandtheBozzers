@@ -6,11 +6,15 @@
 ## Table of contents
 1. [Introduction](#introduction)
 2. [Methodology](#meth)
-3. [Section 2](#section2)
-    1. [Subsection](#subsec2-1)
+3. [Our Data] (#dataclean)
+4. [Analysis of Our Findings](#section2)
+    1. [Mean Price Coastal vs. Inland](#subsec2-1)
     2. [Subsection](#subsec2-2)
-4. [Analysis Section](#section3)
-5. [Summary](#summary)
+    3. [Test] (#subsec2-3)
+    4. [Hold] (#subsec2-4)
+    5. [Placehold] (#subsec2-5)
+5. [Future Predictions](#section3)
+6. [Summary](#summary)
 
 ## Introduction  <a name="introduction"></a>
 
@@ -39,8 +43,11 @@ print(iris['species'].nunique(), '\n---')
 
 Notice that the output does NOT show! **You have to copy in figures and tables from the notebooks.**
 
+## Our Data and Cleaning Process <a name="dataclean"></a>
+Info about our data and how we sourced/cleaned it here.
+
 ## Analysis of Our Findings <a name="section2"></a>
-Blah blah
+Talk about our overall findings here and include information about our data.
 
 ### Mean Price Coastal vs. Inland <a name="subsec2-1"></a>
 This is a subsection, formatted in heading 3 style
@@ -52,7 +59,16 @@ Some analysis here
 ### Subsection 2 <a name="subsec2-2"></a>
 This is a subsection, formatted in heading 3 style
 
-## Analysis Section <a name="section3"></a>
+### Subsection 3 <a name="subsec2-3"></a>
+This is a subsection, formatted in heading 3 style
+
+### Subsection 4 <a name="subsec2-4"></a>
+This is a subsection, formatted in heading 3 style
+
+### Subsection 5 <a name="subsec2-5"></a>
+This is a subsection, formatted in heading 3 style
+
+## Future Predictions <a name="section3"></a>
 
 Here are some graphs that we created in our analysis. We saved them to the `pics/` subfolder and include them via the usual markdown syntax for pictures.
 
