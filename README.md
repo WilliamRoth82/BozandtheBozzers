@@ -1,13 +1,7 @@
-# Welcome to our [team project website!](https://julioveracruz.github.io/testwebsite/)
+<span style="color:lightblue; font-size:24px; font-weight:bold;">Welcome to Bozland!</span> <br>
+<span style="color:lightblue; font-size:24px; font-weight:bold;">Home of the Bozzers</span>
 
-This is a website to showcase our final project for FIN 377 - Data Science for Finance course at Lehigh University.
-
-To see the complete analysis file(s) click [here](https://github.com/julioveracruz/testwebsite/blob/main/notebooks/example.ipynb).
-
-Maybe you want a different website them for the project? Consider `minimal-mistakes`:
-1. [Go here](https://github.com/mmistakes/mm-github-pages-starter/generate).
-2. In the resulting repo, click Settings, then Pages, then make sure the source is the main branch.
-3. [The doc site is here](https://mmistakes.github.io/minimal-mistakes/docs/structure/) and will help you customize layouts and figure out how to use it.
+--
 
 ## Table of contents
 1. [Introduction](#introduction)
@@ -45,11 +39,15 @@ print(iris['species'].nunique(), '\n---')
 
 Notice that the output does NOT show! **You have to copy in figures and tables from the notebooks.**
 
-## Section <a name="section2"></a>
+## Analysis of Our Findings <a name="section2"></a>
 Blah blah
 
-### Subsection 1 <a name="subsec2-1"></a>
+### Mean Price Coastal vs. Inland <a name="subsec2-1"></a>
 This is a subsection, formatted in heading 3 style
+
+![](graphs/mean_price_vs_GMSL_noGIA.png)
+<br><br>
+Some analysis here
 
 ### Subsection 2 <a name="subsec2-2"></a>
 This is a subsection, formatted in heading 3 style
@@ -78,15 +76,23 @@ Blah blah
 
 ## About the team
 
-<img src="pics/julio.jpg" alt="julio" width="300"/>
+<img src="pics/julio.jpg" alt="Boz" width="300"/>
 <br>
-Julio is a senior at Lehigh studying finance.
+The Boz, aka Bos, is a senior at Lehigh studying finance. 
 <br><br><br>
-<img src="pics/don2.jpg" alt="don" width="300"/>
+<img src="pics/Will.png" alt="Bozymandias" width="300"/>
 <br>
-Don is an assistant professor at Lehigh.
+Bozymandias, aka Will, is a senior at Lehigh studying finance, real estate, and business information systems <br>
+<br><br><br>
+<img src="pics/julio.jpg" alt="Bozington" width="300"/>
+<br>
+Bozington, aka Linh, is a senior at Lehigh studying finance.
+<br><br><br>
+<img src="pics/editedme.png" alt="Bozzler" width="300"/>
+<br>
+Bozzler, aka Carter, is a senior at Lehigh studying finance. 
 
 
 ## More 
 
-To view the GitHub repo for this website, click [here](https://github.com/donbowen/teamproject).
+To view the GitHub repo for this website, click [here](https://github.com/WilliamRoth82/BozandtheBozzers).
