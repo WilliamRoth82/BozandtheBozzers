@@ -7,6 +7,21 @@ Using this to map out our selected Zip Codes
 
 Places (Comparables within 100k Median Home Value)
 
+Alabama:
+
+Mobile
+-Inland: 36576
+-Coastal: 36532
+
+- Inland: 36606
+- Coastal: 36605
+
+Alaska:
+
+Anchorage:
+- Inland: 99508
+- Coastal: 99501
+
 California:
 Daly City
 - Inland: 94014
@@ -65,6 +80,14 @@ Pompano Beach
 - Coastal: 33062
 
 
+Hawaii:
+Pahoa
+- Inland: 96771
+- Coastal: 96778
+
+
+
+
 Louisiana:
 New Orleans
 - Indland: 70118
@@ -75,6 +98,17 @@ New Orleans
 
 - Indland: 70116
 - Coastal: 70126
+
+
+Mississippi:
+Gulfport
+- Inland: 39503
+- Coastal: 39501
+
+
+
+
+
 
 South Carolina:
 Charleston
