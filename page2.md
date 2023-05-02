@@ -76,8 +76,12 @@ Fort Lauderdale
 - Coastal: 33308
 
 Pompano Beach
-- Indland: 33060
+- Inland: 33060
 - Coastal: 33062
+
+Jacksonville:
+- Inland: 32218
+- Coastal: 32226
 
 
 Hawaii:
@@ -100,13 +104,11 @@ New Orleans
 - Coastal: 70126
 
 
+
 Mississippi:
 Gulfport
 - Inland: 39503
 - Coastal: 39501
-
-
-
 
 
 
