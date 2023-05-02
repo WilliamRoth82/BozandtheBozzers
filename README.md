@@ -39,11 +39,15 @@ print(iris['species'].nunique(), '\n---')
 
 Notice that the output does NOT show! **You have to copy in figures and tables from the notebooks.**
 
-## Section <a name="section2"></a>
+## Analysis of Our Findings <a name="section2"></a>
 Blah blah
 
-### Subsection 1 <a name="subsec2-1"></a>
+### Mean Price Coastal vs. Inland <a name="subsec2-1"></a>
 This is a subsection, formatted in heading 3 style
+
+![](graphs/mean_price_vs_GMSL_noGIA.png)
+<br><br>
+Some analysis here
 
 ### Subsection 2 <a name="subsec2-2"></a>
 This is a subsection, formatted in heading 3 style
