@@ -25,6 +25,26 @@ Pasadena
 - Indland: 77504
 - Coastal: 77505
 
+
+Delaware:
+Milton
+- Inland: 19947
+- Coastal: 19968
+
+Milford
+- Inland: 19960
+- Coastal: 19963
+
+Dover
+- Inland: 19904
+- Coastal: 19901
+
+Wilmington
+- Inland: 19702
+- Coastal: 19720
+
+
+
 Florida:
 Miami
 - Indland: 33127
@@ -75,7 +95,7 @@ Myrtle Beach
 
 Texas:
 Houston
-- Indland: 77062
+- Inland: 77062
 - Coastal: 77058
 
 - Indland: 77020
@@ -84,9 +104,22 @@ Houston
 - Indland: 77078*
 - Coastal: 77044*
 
+Maryland:
+
+Annapolis
+- Inland: 21401
+- Coastal: 21403
+
+Pasadena (near Annapolis since we already have Pasadena)
+- Inland: 21060
+- Coastal: 21122
+
+Baltimore
+- Inland: 21237
+- Coastal: 21220
 
 
-New York
+New York:
 
 *(Staten Island)
 - Indland: 10304
@@ -110,13 +143,21 @@ New York
 - Coastal: 10010
 
 
-North Carolina
+North Carolina:
 
 Sunset Beach
 - Inland: 28467
 - Coastal: 28468
 
 
+Virginia:
+
+Norfolk
+- Inland: 23502
+- Coastal: 23518
+
+- Inland: 23666
+- Coastal: 23661
 
 
 
