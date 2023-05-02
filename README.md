@@ -74,7 +74,7 @@ Blah blah
 
 <img src="pics/julio.jpg" alt="Boz" width="300"/>
 <br>
-The Boz, aka Bos, is ______
+The Boz, aka Bos, is a senior at Lehigh studying finance. 
 <br><br><br>
 <img src="1670108665895.jpg" alt="Bozymandias" width="300"/>
 <br>
@@ -86,7 +86,7 @@ Bozington, aka Linh, is a senior at Lehigh studying finance.
 <br><br><br>
 <img src="pics/julio.jpg" alt="Bozzler" width="300"/>
 <br>
-Bozzler, aka Carter, is _____
+Bozzler, aka Carter, is a senior at Lehigh studying finance. 
 
 
 ## More 
