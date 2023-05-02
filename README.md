@@ -5,11 +5,11 @@
 
 ## Table of contents
 1. [Introduction](#introduction)
-2. [Methodology](#meth)
-3. [Our Data](#dataclean)
+2. [Our Data](#dataclean)
+3. [Methodology](#meth)
 4. [Analysis of Our Findings](#section2)
-    1. [Mean Price Coastal vs. Inland](#subsec2-1)
-    2. [Subsection](#subsec2-2)
+    1. [Price History](#subsec2-1)
+    2. [Mean Price Coastal vs. Inland](#subsec2-2)
     3. [Test](#subsec2-3)
     4. [Hold](#subsec2-4)
     5. [Placehold](#subsec2-5)
@@ -51,21 +51,21 @@ Notice that the output does NOT show! **You have to copy in figures and tables f
 ## Analysis of Our Findings <a name="section2"></a>
 Talk about our overall findings here and include information about our data.
 
-### Mean Price Coastal vs. Inland <a name="subsec2-1"></a>
+### Price History <a name="subsec2-1"></a>
 This is a subsection, formatted in heading 3 style
 
-![](graphs/mean_price_vs_GMSL_noGIA.png)
+![](graphs/coastal_inland_price_history.png)
 <br><br>
 Some analysis here
 
-### Subsection 2 <a name="subsec2-2"></a>
+### Price Distribution <a name="subsec2-2"></a>
 This is a subsection, formatted in heading 3 style
 
-![](graphs/mean_price_vs_GMSL_noGIA.png)
+![](graphs/price_distribution_coastal_vs_inland.png)
 <br><br>
 Some analysis here
 
-### Subsection 3 <a name="subsec2-3"></a>
+### Mean Price Coastal vs. Inland <a name="subsec2-3"></a>
 This is a subsection, formatted in heading 3 style
 
 ![](graphs/mean_price_vs_GMSL_noGIA.png)
