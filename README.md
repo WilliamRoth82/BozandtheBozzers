@@ -76,15 +76,15 @@ Blah blah
 <br>
 The Boz, aka Bos, is a senior at Lehigh studying finance. 
 <br><br><br>
-<img src="1670108665895.jpg" alt="Bozymandias" width="300"/>
+<img src="Will.png" alt="Bozymandias" width="300"/>
 <br>
-Bozymandias, aka Will, is a senior at Lehigh studying finance.
+Bozymandias, aka Will, is a senior at Lehigh studying finance, real estate, and business information systems <br>
 <br><br><br>
 <img src="pics/julio.jpg" alt="Bozington" width="300"/>
 <br>
 Bozington, aka Linh, is a senior at Lehigh studying finance.
 <br><br><br>
-<img src="pics/julio.jpg" alt="Bozzler" width="300"/>
+<img src="pics/editedme.png" alt="Bozzler" width="300"/>
 <br>
 Bozzler, aka Carter, is a senior at Lehigh studying finance. 
 
