@@ -76,7 +76,7 @@ Blah blah
 <br>
 The Boz, aka Bos, is a senior at Lehigh studying finance. 
 <br><br><br>
-<img src="Will.png" alt="Bozymandias" width="300"/>
+<img src="pics/Will.png" alt="Bozymandias" width="300"/>
 <br>
 Bozymandias, aka Will, is a senior at Lehigh studying finance, real estate, and business information systems <br>
 <br><br><br>
