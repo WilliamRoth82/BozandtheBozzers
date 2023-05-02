@@ -1,4 +1,4 @@
-Zip,Coastal/Inland,Pair,Date,Price,TotalWeightedObservations,GMSL_noGIA,StdDevGMSL_noGIA,SmoothedGSML_noGIA,GMSL_GIA,StdDevGMSL_GIA,SmoothedGSML_GIA,SmoothedGSML_GIA_sigremoved
+Zip,Inland/Coastal,Pair,Date,Price,TotalWeightedObservations,GMSL_noGIA,StdDevGMSL_noGIA,SmoothedGSML_noGIA,GMSL_GIA,StdDevGMSL_GIA,SmoothedGSML_GIA,SmoothedGSML_GIA_sigremoved
 36576.0,0,1,2010-01,,336505.31,8.3,84.67,9.54,12.43,84.58,13.67,14.64
 36532.0,1,1,2010-01,278900.0,336505.31,8.3,84.67,9.54,12.43,84.58,13.67,14.64
 36605.0,1,2,2010-01,,336505.31,8.3,84.67,9.54,12.43,84.58,13.67,14.64
