@@ -56,6 +56,22 @@ New Orleans
 - Indland: 70116
 - Coastal: 70126
 
+South Carolina:
+Charleston
+- Inland: 29407
+- Coastal: 29412
+
+Myrtle Beach
+- Inland: 29579
+- Coastal: 29577
+
+- Inland: 29566
+- Coastal: 29582
+
+
+
+
+
 
 Texas:
 Houston
@@ -92,6 +108,14 @@ New York
 
 - Indland: 10003
 - Coastal: 10010
+
+
+North Carolina
+
+Sunset Beach
+- Inland: 28467
+- Coastal: 28468
+
 
 
 
