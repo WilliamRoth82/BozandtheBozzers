@@ -1,3 +1,4 @@
+![](pics/caribbean-beach-wide.jpg)
 <span style="color:lightblue; font-size:36px; font-weight:bold;">Welcome to Bozland! Home of the Bozzers</span> <br>
 
 ## Table of contents
