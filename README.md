@@ -91,7 +91,6 @@ This is a subsection, formatted in heading 3 style
 Some analysis here
 
 ### Price vs Sea Level <a name="subsec2-4"></a>
-This is a subsection, formatted in heading 3 style
 
 ![](graphs/price_vs_GMSL_noGIA_coastal_inland.png)
 <br><br>
