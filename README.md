@@ -328,7 +328,7 @@ Blah blah
 
 ## Meet the team
 
-<img src="pics/julio.jpg" alt="Boz" width="300"/>
+<img src="pics/Bos.png" alt="Boz" width="300"/>
 <br>
 The Boz, aka Bos, is a senior at Lehigh studying finance. 
 <br><br><br>
