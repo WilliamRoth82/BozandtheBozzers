@@ -175,7 +175,7 @@ Bozymandias, aka Will, is a senior at Lehigh studying finance, real estate, and 
 <br><br><br>
 <img src="pics/Linh Thai.png" alt="Bozzinhton" width="300"/>
 <br>
-Bozzinhton, aka Linh, is a senior at Lehigh studying finance.
+Bozzinhton, aka Linh, is a senior at Lehigh studying finance, business analytics, business information systems, and Chinese.
 <br><br><br>
 <img src="pics/editedme.png" alt="Bozzler" width="300"/>
 <br>
