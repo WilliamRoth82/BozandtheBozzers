@@ -1,8 +1,4 @@
-Oh hello
-
-https://www.unitedstateszipcodes.org/
-
-Using this to map out our selected Zip Codes
+Appendix:
 
 
 Places (Comparables within 100k Median Home Value)
@@ -196,4 +192,5 @@ Norfolk
 - Coastal: 23661
 
 
-
+Source:
+https://www.unitedstateszipcodes.org/
