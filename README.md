@@ -269,23 +269,20 @@ Lastly, we thought it was important to close our analysis by examining the obser
 
 ## Future Predictions <a name="section3"></a>
 
-Here are some graphs that we created in our analysis. We saved them to the `pics/` subfolder and include them via the usual markdown syntax for pictures.
+Finally, in an attempt to predict prices for inland and coastal homes in our test dataset from 2017 - 2021 given given a rise in sea level, we created the two scatterplots of our predicted prices over the five years and plotted the trend lines of the results. The difference between the two graphs is that the first uses just our predicted prive for the period while the second takes the log of our predicted price. We chose to make this second graph because we though it may help to linearize the relationship between our two variables.
 
 ![](graphs/predprice_vs_GMSL_noGIA_coastal_inland.png)
 <br><br>
-Some analysis here
+Our first graph is a scatter plot of our predicted inland and coastal median housing prices from 2017 - 2021 given the expected rise in sea level in 2017. We created this graph not to display the accuracy of our model, but rather to further display the relationship between rising sea levels and coastal housing prices. As seen above, the trendline for inland housing prices is growing at a greater rate than the trendline for coastal housing prices which we believe is due to the effect rising sea levels are having on the value of coastal properties.
 <br><br>
 ![](graphs/logpredprice_vs_GMSL_noGIA_coastal_inland.png)
 <br><br>
-More analysis here.
+To continue, our second graph displays the same scatter plot with the exception that we have taken the log of our predicted price in an attempt to help linearize the relationship, and we beleive this further demonstrates the widening gap between comparable coastal and inland properties as sea levels rise from 2017 - 2021.
 <br><br>
-![](pics/plot3.png)
-<br><br>
-More analysis.
 
 ## Summary <a name="summary"></a>
 
-Blah blah
+ESKETITITITITITITITITITIITIT
 
 
 
