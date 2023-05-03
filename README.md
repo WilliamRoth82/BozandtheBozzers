@@ -69,7 +69,10 @@ To prepare our data for subsequent visualiation, we had to:
 
 ## Methodology <a name="meth"></a>
 
-This section includes code we felt was critical to highlight due to its importance in various steps of our analysis. We have divided the code into three subsections (Cleaning, Visualizations, and Regression) to further facilitate the understanding of our work. 
+This section includes code we felt was critical to highlight due to its importance in various steps of our analysis. We have divided the code into three subsections:
+- [Cleaning](cleaning)
+- Visualizations
+- Regression
 
 ### Cleaning <a name="methclean"></a>
 
@@ -170,30 +173,6 @@ plt.show()
 ```
 
 ### Regression <a name="methreg"></a>
-```python
-# Load the datasets using the given file paths
-zip_sea = pd.read_csv('inputs/zip_sea.csv')
-zip_sea_new = pd.read_csv('inputs/zip_sea_new.csv')
-
-# Replace missing values with NaN
-zip_sea['Price'] = pd.to_numeric(zip_sea['Price'], errors='coerce')
-zip_sea_new['Price'] = pd.to_numeric(zip_sea_new['Price'], errors='coerce')
-
-# Create the model formula
-formula = 'Price ~ GMSL_noGIA * Q("Inland/Coastal") + C(Pair)'
-
-# Create and fit the model using the training set (zip_sea.csv)
-model = smf.ols(formula, data=zip_sea).fit()
-
-# Evaluate the model using the testing set (zip_sea_new.csv) and calculate the R-squared score
-zip_sea_new['PredPrice'] = model.predict(zip_sea_new)
-
-# Save the predictions to a file called predict.csv in the outputs folder
-zip_sea_new.to_csv('outputs/predict.csv', index=False)
-
-# Output the model summary
-print(model.summary())
-```
 
 ```python
 # Load the datasets using the given file paths
