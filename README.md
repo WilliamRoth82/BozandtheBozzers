@@ -4,8 +4,7 @@
 ## Table of contents
 1. [Introduction](#introduction)
 2. [Our Data](#dataclean)
-3. [Cleaning](#cleantime)
-4. [Methodology](#meth)
+3. [Methodology](#meth)
     1. [Cleaning](#methclean)
     2. [Visualizations](#methviz)
     3. [Regression](#methreg)
@@ -41,8 +40,6 @@ To answer these questions above, we worked as a team to analyze our filtered dat
 &nbsp;&nbsp;&nbsp;Additionally, from Kaggle we were able to locate data on global sea level rises over the past three decades (1991-2021). In this dataset, the primary variable we will be using for analysis is GMSL (Global Isostatic Adjustment (GIA) not applied) variation (mm) with respect to 20-year TOPEX/Jason collinear mean reference. Not accounting for Global Isostatic Adjustment means that we will not be accounting for possible movements in the earth's crust under or around ice caps. Additionally, the 20-year TOPEX/Jason collinear mean reference is a prominently used study that examines historic sea levels rises and predicts a trend of a rise of 3.3 mm/year in sea level. Therefore, this variable is simply stating the variation in sea level hieght (mm) from the TPOPEX/Jason Collinear mean reference.
 
 &nbsp;&nbsp;&nbsp;Finally, to obtain our comparable inland and coastal properties, we used https://www.unitedstateszipcodes.org/ which is the United States Postal Service's map of all U.S. zip codes. This website also provides region specific information such as the size, population, population density, median home value, and demographics for each zip code which we used as key varaibles when trying to identify comparable zip codes. Our selection process including identifying coastal cities that we wanted to analyze and then manually selecting and comparing key variables between adjacent inland and coastal zip codes with an emphasis on the size, population density, and median home value of each region. 
-
-## Cleaning <a name="cleantime"></a>
 
 To prepare our data for subsequent visualiation, we had to:
 
@@ -272,11 +269,11 @@ Lastly, we thought it was important to close our analysis by examining the obser
 
 Here are some graphs that we created in our analysis. We saved them to the `pics/` subfolder and include them via the usual markdown syntax for pictures.
 
-![](pics/plot1.png)
+![](graphs/predprice_vs_GMSL_noGIA_coastal_inland.png)
 <br><br>
 Some analysis here
 <br><br>
-![](pics/plot2.png)
+![](graphs/logpredprice_vs_GMSL_noGIA_coastal_inland.png)
 <br><br>
 More analysis here.
 <br><br>
