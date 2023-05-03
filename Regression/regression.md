@@ -95,22 +95,6 @@ print(model.summary())
     [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
     [2] The condition number is large, 1.23e+03. This might indicate that there are
     strong multicollinearity or other numerical problems.
-    
-
-
-```python
-model.params[-4:]
-```
-
-
-
-
-    C(Pair)[T.38]                    -96261.451965
-    GMSL_noGIA                         1914.732453
-    Q("Inland/Coastal")                3318.417410
-    GMSL_noGIA:Q("Inland/Coastal")    -1397.521330
-    dtype: float64
-
 
 
 
@@ -300,8 +284,3 @@ plt.show()
 ![png](output_4_1.png)
     
 
-
-
-```python
-
-```
