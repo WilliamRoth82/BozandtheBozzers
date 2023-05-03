@@ -167,7 +167,7 @@ Ultimately, we set out to measure the possible correlation between the global se
 
 <img src="pics/Bos.png" alt="Boz" width="300"/>
 <br>
-The Boz, aka Andrew, is a senior at Lehigh studying finance and business information systems. 
+The Boz, aka Andrew, is a senior at Lehigh studying finance and business information systems. He can be connected [here.](https://www.linkedin.com/in/andrew-bosland-1bb1a6174/)
 <br><br><br>
 <img src="pics/Will.png" alt="Bozymandias" width="300"/>
 <br>
