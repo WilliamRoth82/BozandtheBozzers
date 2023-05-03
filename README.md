@@ -44,28 +44,27 @@ Finally, to obtain our comparable inland and coastal properties, we used https:/
 To prepare our data for subsequent visualiation, we had to:
 
 1. Import necessary libraries: 
-<pre> We imported pandas and DateOffset from pandas.tseries.offsets.
+&nbsp; We imported pandas and DateOffset from pandas.tseries.offsets.
 
 2. Load data: 
-<pre> We loaded both datasets, 'sealevel.csv' and 'Zip_homes.csv', using read_csv.
+We loaded both datasets, 'sealevel.csv' and 'Zip_homes.csv', using read_csv.
 
 3. Transpose and format housing price data: 
-<pre> We transposed the 'Zip_homes.csv' data to have columns as years and rows as zip codes. We then reset the index, set the year as the index, and renamed the   <pre> RegionName column to Year. Finally we formatted the data to have a datetime index.
+We transposed the 'Zip_homes.csv' data to have columns as years and rows as zip codes. We then reset the index, set the year as the index, and renamed the RegionName column to Year. Finally we formatted the data to have a datetime index.
 
 4. Filter sea level data: 
-<pre> We took one in every three recordings and dropped any subsequent recordings after the 12th. This was to make our sea level recordings monthly and to better match <pre> them to our yearly comparisons in median housing price. 
+We took one in every three recordings and dropped any subsequent recordings after the 12th. This was to make our sea level recordings monthly and to better match them to our yearly comparisons in median housing price. 
 
 5. Merge datasets: 
-<pre> We merged the two datasets using an outer join and set the Date column as the new index.
+We merged the two datasets using an outer join and set the Date column as the new index.
 
-6. Filter merged dataset: 
-<pre> We filtered the merged dataset to contain only data from January 2010 to September 2017.
+6. Filter merged dataset: We filtered the merged dataset to contain only data from January 2010 to September 2017.
 
 7. Create new datasets: 
-<pre> The code defines our selected zip codes, combines our coastal and inland data with our sea level data, transposes the data, resets the index, and sets our column <pre> labels
+The code defines our selected zip codes, combines our coastal and inland data with our sea level data, transposes the data, resets the index, and sets our column  labels
 
 8. Export data: 
-<pre> The code exports the final cleaned and filtered merged dataset as 'filtered_merged_data.csv'
+The code exports the final cleaned and filtered merged dataset as 'filtered_merged_data.csv'
 
 ## Methodology <a name="meth"></a>
 
