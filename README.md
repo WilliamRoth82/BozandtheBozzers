@@ -165,7 +165,81 @@ print(placeholder)
 Info here
 
 ```python
-print(placeholderlol)
+# Load the datasets using the given file paths
+zip_sea = pd.read_csv('inputs/zip_sea.csv')
+zip_sea_new = pd.read_csv('inputs/zip_sea_new.csv')
+
+# Replace missing values with NaN
+zip_sea['Price'] = pd.to_numeric(zip_sea['Price'], errors='coerce')
+zip_sea_new['Price'] = pd.to_numeric(zip_sea_new['Price'], errors='coerce')
+
+# Create the model formula
+formula = 'Price ~ GMSL_noGIA * Q("Inland/Coastal") + C(Pair)'
+
+# Create and fit the model using the training set (zip_sea.csv)
+model = smf.ols(formula, data=zip_sea).fit()
+
+# Evaluate the model using the testing set (zip_sea_new.csv) and calculate the R-squared score
+zip_sea_new['PredPrice'] = model.predict(zip_sea_new)
+
+# Save the predictions to a file called predict.csv in the outputs folder
+zip_sea_new.to_csv('outputs/predict.csv', index=False)
+
+# Output the model summary
+print(model.summary())
+```
+
+```python
+# Load the datasets using the given file paths
+zip_sea = pd.read_csv('inputs/zip_sea.csv')
+zip_sea_new = pd.read_csv('inputs/zip_sea_new.csv')
+
+# Replace missing values with NaN
+zip_sea['LogPrice'] = np.log(zip_sea['Price'])
+zip_sea['LogPrice'] = zip_sea['LogPrice'].replace([np.inf, -np.inf], np.nan)
+zip_sea_new['LogPrice'] = np.log(zip_sea_new['Price'])
+zip_sea_new['LogPrice'] = zip_sea_new['LogPrice'].replace([np.inf, -np.inf], np.nan)
+
+# Create the model formula
+formula = 'LogPrice ~ GMSL_noGIA * Q("Inland/Coastal") + C(Pair)'
+
+# Create and fit the model using the training set (zip_sea.csv)
+model = smf.ols(formula, data=zip_sea).fit()
+
+# Evaluate the model using the testing set (zip_sea_new.csv) and calculate the R-squared score
+zip_sea_new['PredLogPrice'] = model.predict(zip_sea_new)
+
+# Save the predictions to a file called predict.csv in the outputs folder
+zip_sea_new.to_csv('outputs/predict2.csv', index=False)
+
+# Output the model summary
+print(model.summary())
+```
+
+```python
+# Read data from predict.csv
+with open('outputs/predict.csv', 'r') as csvfile1:
+    csvreader1 = csv.reader(csvfile1)
+    predict_data = [row for row in csvreader1]
+
+# Read data from predict2.csv
+with open('outputs/predict2.csv', 'r') as csvfile2:
+    csvreader2 = csv.reader(csvfile2)
+    predict2_data = [row for row in csvreader2]
+
+# Combine the last column of predict2.csv into predict.csv
+for i in range(len(predict_data)):
+    if i == 0:
+        predict_data[i].extend(["PredLogPrice"])
+    else:
+        predict_data[i].append(predict2_data[i][-1])
+
+# Write the combined data to a new CSV file
+with open('outputs/combined_predict.csv', 'w', newline='') as csvfile:
+    csvwriter = csv.writer(csvfile)
+    csvwriter.writerows(predict_data)
+
+print("Combined data saved to 'combined_predict.csv'")
 ```
 
 Here is some code that we used to develop our analysis. Blah Blah. [More details are provided in the Appendix](page2).
