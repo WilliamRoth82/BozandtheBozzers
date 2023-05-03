@@ -33,7 +33,7 @@ Santa Barbara:
 - Coastal: 93109
 
 Pasadena:
-- Indland: 77504
+- Inland: 77504
 - Coastal: 77505
 
 **Delaware**
