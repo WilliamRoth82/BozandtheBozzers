@@ -27,7 +27,7 @@
 
 &nbsp;&nbsp;&nbsp;Unfortunately, the ladder two questions we were unable to analyze given the constraints on our data. First, we could not locate enough accurate and consist median housing prices for inland zip codes at different distances from the coast. This is beacuse the the farther inland zipcodes were no longer comparable to our coastal zip codes as there were several variables, such as median housing price, size, altitude, and demographics, that are too different between the two regions. Therefore, we kept our analysis to looking at inland zip codes that are highly comparable to adjacent coastal zip codes to provide more accurate results. 
 
-&nbsp;&nbsp;&nbsp;Moreover, we were unable to predict coastal property listing values over the next 10 years primarily due to our timing constraint and our overenthusiasm in trying to use our regression to make real world predictions. We ran into multiple problems trying to create our predictions as after we filtered the intial dataset we attempted to reinclude pricing information for later dates through 2021. However, this caused several issues including not predicting prices and having certain zipcodes come up as NaN. With more time we would investigate this problem further to create accurate predictions, but for today we decided to move forward and pivot our prediction to trying to predict prices for inland and coastal homes in our test dataset. While we recognize this prediction does not provide us with real world estimations for future prices, we wanted to test the accuracy of our predicition model to see if it could be used for future housing price predictions once we were able to fix our problem with loading in more current data. 
+&nbsp;&nbsp;&nbsp;Moreover, we were unable to predict coastal property listing values over the next 10 years primarily due to our timing constraint and our overenthusiasm in trying to use our regression to make real world predictions. We ran into multiple problems trying to create our predictions as after we filtered the intial dataset we attempted to reinclude pricing information for later dates through 2021. However, this caused several issues including not predicting prices and having certain zipcodes come up as NaN. With more time we would investigate this problem further to create accurate predictions, but for today we decided to move forward and pivot our prediction to trying to predict prices for inland and coastal homes in our test dataset from 2017 - 2021 given a rise in sea level. While we recognize this prediction does not provide us with real world estimations for future prices, we wanted to test the accuracy of our predicition model to see if it could be used for future housing price predictions once we were able to fix our problem with loading in more current data. 
 
 &nbsp;&nbsp;&nbsp;For our hypothesis, we predicted that a rise in sea level has a statistically significant impact on the listing prices of homes in U.S. coastal cities when compared to home prices in adjacent zip codes. To explore this hypothesis, our null hypothesis is that the median change in coastal city home listing prices associated with a 1 mm rise in global sea levels is equal to 0, or β1 = 0, with all other variables held constant. Our alternative hypothesis therefore tests if this association is not equal to one, or β1 ≠ 0, and if any correlation is present between these variables.
 
@@ -231,11 +231,10 @@ print(model.summary())
 ## Analysis of Our Findings <a name="section2"></a>
 
 ### Price History <a name="subsec2-1"></a>
-This is a subsection, formatted in heading 3 style
 
 ![](graphs/coastal_inland_price_history.png)
 <br><br>
-Some analysis here
+The above figure is a line plot created by taking the mean housing prices, grouped by Date and the categorical variable indicating whether the zip code is inland or coastal (Inland/Coastal). Overall, there is an upward trend for both coastal and inland housing prices over the period 2010-2017. Over time, inland zip codes and houses have risen to be higher than coastal ones, especially after 2013. In particular, the period 2010-2013 observes a distinct gap between coastal and inland housing prices, with coastal prices being higher than inland prices. After 2013, the trend reverses tremendously as inland housing prices rocketed to be above coastal prices, with likely twice as large the magnitude in the discrepancy between the mean housing prices. Possible explanations for this phenomenon are due to natural disasters (e.g. Hurricane Sandy) and the interaction of supply and demand. Post-event, people may find it dangerous to live in coastal areas and move inland instead. At the beginning of 2016, there was a short period when coastal prices were rising a bit above inland prices, but inland prices significantly increased after the second half of 2016 and surpassed coastal prices until after 2017. There might be a seasonality pattern emerging from observing the above figure, in which housing prices stayed at around the same level every 3 years (2010-2013 and 2013-2016). However, our data may not be comprehensive enough to reveal any true meaningful trend and pattern in housing prices over the period.
 
 ### **Price Distribution** <a name="subsec2-2"></a>
 
@@ -247,11 +246,10 @@ Examining our data with regard to housing prices, it is clear that people pay a 
 A multitude of negative side effects can be attributed to increases in sea level, including factors like the increased severity and frequency of hurricanes, which can result in a stark impact on the devaluation of coastal properties. As sea level rises, flooding and other natural weather phenomena will continue to wreak havoc on these coastal properties which can lead to extensive damage and disincentivize people to purchase or build on these properties in the future. Given that sea level rise has been on an upwards trend for decades, and experts expect this trend to continue into the future if action isn’t taken, we believe that the median price of coastal homes will continue to decrease while inland homes will become more sought after. As a result, the range and median prices of coastal homes will continue to shrink as many people will not be willing to take the risk to invest large sums of money in these areas. This belief is supported by our findings in our upcoming graphs, as it is clear that rise in sea level has a negative impact on median prices for coastal homes while increasing the value of properties in adjacent inland zip codes.
 
 ### Mean Price Coastal vs. Inland <a name="subsec2-3"></a>
-This is a subsection, formatted in heading 3 style
 
 ![](graphs/mean_price_vs_GMSL_noGIA.png)
 <br><br>
-Some analysis here
+The linear regression plot figure was created from the mean housing prices, grouped by the sea level measurement GMSL_noGIA and the categorical variable Inland/Coastal. The scatter plot demonstrates the relationship between housing prices and GMSL_noGIA, with the colors indicating whether or not they were coastal or inland. We observe that inland prices are more scattered towards the two ends of the prices, with values concentrated more in the high price - high sea level area. In contrast, coastal prices mostly stay in the center, meaning these coastal housing values accumulate more in the low price – low sea level area. Overall, the slope of the fitted inland trend line is steeper than that of the coastal. This shows how the housing prices for inland zip codes are more sensitive to rising sea levels than coastal ones. With increased sea level risks, people would rather move inwards and demand more inland homes, thus raising the inland housing prices as opposed to coastal prices.
 
 ### Price vs Sea Level <a name="subsec2-4"></a>
 
@@ -269,23 +267,20 @@ Lastly, we thought it was important to close our analysis by examining the obser
 
 ## Future Predictions <a name="section3"></a>
 
-Here are some graphs that we created in our analysis. We saved them to the `pics/` subfolder and include them via the usual markdown syntax for pictures.
+Finally, in an attempt to predict prices for inland and coastal homes in our test dataset from 2017 - 2021 given given a rise in sea level, we created the two scatterplots of our predicted prices over the five years and plotted the trend lines of the results. The difference between the two graphs is that the first uses just our predicted prive for the period while the second takes the log of our predicted price. We chose to make this second graph because we though it may help to linearize the relationship between our two variables.
 
 ![](graphs/predprice_vs_GMSL_noGIA_coastal_inland.png)
 <br><br>
-Some analysis here
+Our first graph is a scatter plot of our predicted inland and coastal median housing prices from 2017 - 2021 given the expected rise in sea level in 2017. We created this graph not to display the accuracy of our model, but rather to further display the relationship between rising sea levels and coastal housing prices. As seen above, the trendline for inland housing prices is growing at a greater rate than the trendline for coastal housing prices which we believe is due to the effect rising sea levels are having on the value of coastal properties.
 <br><br>
 ![](graphs/logpredprice_vs_GMSL_noGIA_coastal_inland.png)
 <br><br>
-More analysis here.
+To continue, our second graph displays the same scatter plot with the exception that we have taken the log of our predicted price in an attempt to help linearize the relationship, and we beleive this further demonstrates the widening gap between comparable coastal and inland properties as sea levels rise from 2017 - 2021.
 <br><br>
-![](pics/plot3.png)
-<br><br>
-More analysis.
 
 ## Summary <a name="summary"></a>
 
-Blah blah
+ESKETITITITITITITITITITIITIT
 
 
 
