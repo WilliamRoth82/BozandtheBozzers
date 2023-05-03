@@ -69,11 +69,9 @@ To prepare our data for subsequent visualiation, we had to:
 
 ## Methodology <a name="meth"></a>
 
-Any general information here
+This section includes code we felt was critical to highlight due to its importance in various steps of our analysis. We have divided the code into three subsections (Cleaning, Visualizations, and Regression) to further facilitate the understanding of our work. 
 
 ### Cleaning <a name="methclean"></a>
-
-Info here
 
 ```python
 # Merge two data sets
@@ -90,8 +88,6 @@ print(filtered_merged_data.head())
 
 filtered_merged_data.to_csv('inputs/filtered_merged_data.csv')
 ```
-
-More info
 
 ```python
 Coastal = [36532.0, 36605.0, 99501.0, 94015.0, 93950.0, 93109.0, 77505.0, 19968.0, 19963.0, 19901.0, 19720.0, 33137.0, 33129.0, 33131.0, 33308.0, 33062.0, 32226.0, 96778.0, 70124.0, 70122.0, 70126.0, 39501.0, 29412.0, 29577.0, 29582.0, 77058.0, 77015.0, 21403.0, 21122.0, 21220.0, 10305.0, 10314.0, 11214.0, 10069.0, 10010.0, 28468.0, 23518.0, 23661.0]
@@ -115,8 +111,6 @@ filtered_zip = filtered_merged_data.loc[:, selected_columns]
 filtered_zip = filtered_zip.reset_index()
 ```
 
-Even more info
-
 ```python
 # Add the "Coastal/Inland" and "Pair" columns
 transposed_filtered_zip['Inland/Coastal'] = transposed_filtered_zip['Zip'].apply(lambda x: 1 if x in Coastal else 0)
@@ -134,7 +128,6 @@ for i in range(0, len(Combined), 2):
 transposed_filtered_zip = transposed_filtered_zip.sort_values(by='Pair')
 ```
 
-Last info
 ```python
 # Melt dataset - Rearrange data
 transposed_filtered_zip = transposed_filtered_zip.iloc[8:]
@@ -153,8 +146,6 @@ zip_sea_new.to_csv('inputs/zip_sea_new.csv', index=False)
 ```
 
 ### Visualizations <a name="methviz"></a>
-
-Info here
 
 ```python
 #4
@@ -179,8 +170,6 @@ plt.show()
 ```
 
 ### Regression <a name="methreg"></a>
-
-Info here
 
 ```python
 # Load the datasets using the given file paths
@@ -235,30 +224,9 @@ with open('outputs/combined_predict.csv', 'w', newline='') as csvfile:
 print("Combined data saved to 'combined_predict.csv'")
 ```
 
-Here is some code that we used to develop our analysis. Blah Blah. [More details are provided in the Appendix](page2).
- 
-Note that for the purposes of the website, you have to copy this code into the markdown file and  
-put the code inside trip backticks with the keyword `python`.
-
-```python
-import seaborn as sns 
-iris = sns.load_dataset('iris') 
-
-print(iris.head(),  '\n---')
-print(iris.tail(),  '\n---')
-print(iris.columns, '\n---')
-print("The shape is: ",iris.shape, '\n---')
-print("Info:",iris.info(), '\n---') # memory usage, name, dtype, and # of non-null obs (--> # of missing obs) per variable
-print(iris.describe(), '\n---') # summary stats, and you can customize the list!
-print(iris['species'].value_counts()[:10], '\n---')
-print(iris['species'].nunique(), '\n---')
-```
-
-Notice that the output does NOT show! **You have to copy in figures and tables from the notebooks.**
-
+[More details are provided in the Appendix](page2).
 
 ## Analysis of Our Findings <a name="section2"></a>
-Talk about our overall findings here and include information about our data.
 
 ### Price History <a name="subsec2-1"></a>
 This is a subsection, formatted in heading 3 style
