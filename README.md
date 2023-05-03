@@ -18,7 +18,7 @@
 (The "Introduction" text above is formatted in heading 2 style.) The main goal of this project is to explore *(insert project idea here)*.  
 
 
-## Our Data and Cleaning Process <a name="dataclean"></a>
+## Our Data <a name="dataclean"></a>
 Info about our data and how we sourced/cleaned it here.
 
 ## Methodology <a name="meth"></a>
