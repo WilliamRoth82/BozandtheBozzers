@@ -115,11 +115,18 @@ Lastly, we thought it was important to close our analysis by examining the obser
 
 ## Future Predictions <a name="section3"></a>
 
+$$Price \sim GMSL_{noGIA} \times Q("Inland/Coastal") + C(Pair)$$
+
 ![](outputs/Linear output.png)
 <br><br>
+Some analysis
+<br><br>
 
+$$LogPrice \sim GMSL_{noGIA} * Q("Inland/Coastal") + C(Pair)$$
+<br><br>
 ![](outputs/Linear-log output.png)
 <br><br>
+Some analysis
 
 Finally, in an attempt to predict prices for inland and coastal homes in our test dataset from 2017 - 2021 given given a rise in sea level, we created the two scatterplots of our predicted prices over the five years and plotted the trend lines of the results. The difference between the two graphs is that the first uses just our predicted prive for the period while the second takes the log of our predicted price. We chose to make this second graph because we though it may help to linearize the relationship between our two variables.
 
