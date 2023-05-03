@@ -91,6 +91,60 @@ print(filtered_merged_data.head())
 filtered_merged_data.to_csv('inputs/filtered_merged_data.csv')
 ```
 
+More info
+
+```python
+# Merge two data sets
+merged_data = pd.merge(transposed_data, filtered_data, how='outer', left_index=True, right_index=True)
+merged_data.rename(columns={'Year': 'Date'}, inplace=True)
+merged_data.index = merged_data.index.rename('Date')
+
+merged_data.to_csv('inputs/merged_data.csv')
+
+print(merged_data.head())
+filtered_merged_data = merged_data.loc['2010-01':'2021-06']
+
+print(filtered_merged_data.head())
+
+filtered_merged_data.to_csv('inputs/filtered_merged_data.csv')
+```
+
+Even more info
+
+```python
+# Add the "Coastal/Inland" and "Pair" columns
+transposed_filtered_zip['Inland/Coastal'] = transposed_filtered_zip['Zip'].apply(lambda x: 1 if x in Coastal else 0)
+transposed_filtered_zip['Pair'] = 0
+pair_index = 1
+
+for i in range(0, len(Combined), 2):
+    inland_zip = Combined[i]
+    coastal_zip = Combined[i+1]
+    transposed_filtered_zip.loc[transposed_filtered_zip['Zip'] == inland_zip, 'Pair'] = pair_index
+    transposed_filtered_zip.loc[transposed_filtered_zip['Zip'] == coastal_zip, 'Pair'] = pair_index
+    pair_index += 1
+
+# Sort the DataFrame by the "Pair" column
+transposed_filtered_zip = transposed_filtered_zip.sort_values(by='Pair')
+```
+
+Last info
+```python
+# Melt dataset - Rearrange data
+transposed_filtered_zip = transposed_filtered_zip.iloc[8:]
+melted_df = transposed_filtered_zip.melt(id_vars=['Zip', 'Inland/Coastal', 'Pair'],
+                    var_name='Date',
+                    value_name='Price')
+                    
+# Prep sea level data for merge and filter for the second date range (2017-10 to 2021-06)
+filtered_data_2 = filtered_data.loc['2017-10':'2021-06'].reset_index()
+# Merge:
+zip_sea_new = pd.merge(melted_df_2, filtered_data_2.rename(columns={'Year': 'Date'}),
+         on='Date', how='outer', validate='many_to_one')
+
+zip_sea_new.to_csv('inputs/zip_sea_new.csv', index=False)
+(zip_sea, zip_sea_new)
+```
 
 ### Visualizations <a name="methviz"></a>
 
