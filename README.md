@@ -95,7 +95,8 @@ This is a subsection, formatted in heading 3 style
 
 ![](graphs/price_vs_GMSL_noGIA_coastal_inland.png)
 <br><br>
-Some analysis here
+
+When examining how the rise of sea level affects median housing price, we thought it was also important to visualize how each individual zip code fares when sea level rises and to examine the grouping of these data points on the basis of location (either inland or coastal). Our hypothesis stated that as sea level increases, we would expect the median home prices of coastal zip codes to fall while median home prices of adjacent inland zip codes would increase. Our analysis of the resulting graph strongly supports this hypothesis, as it is clear that the median home prices in inland areas are far higher as sea level rises when compared to their coastal counterparts. The trendline for each grouping of zip codes further supports this claim, as although both coastal and inland zip codes are experiencing increases in median home prices, which can be attributed to the natural increase of home prices through inflation, the gap between these trend lines increases at a rate comparable to sea level rise. The upper level of our chart is also completely dominated by these inland zip codes, which gives further credence to our hypothesis that as sea level continues to rise these homes will continue to gain value. 
 
 ### Correlation Heatmap <a name="subsec2-5"></a>
 This is a subsection, formatted in heading 3 style
