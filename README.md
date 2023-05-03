@@ -1,4 +1,4 @@
-<span style="color:lightblue; font-size:24px; font-weight:bold;">Welcome to Bozland! Home of the Bozzers</span> <br>\
+<span style="color:lightblue; font-size:36px; font-weight:bold;">Welcome to Bozland! Home of the Bozzers</span> <br>
 
 ## Table of contents
 1. [Introduction](#introduction)
