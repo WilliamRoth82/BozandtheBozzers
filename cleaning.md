@@ -1,6 +1,6 @@
 
 
-**Located on this page are some of the code snippets that proved to be crucial to the success of our project.**
+## Cleaning Code Snippets
 
 
 *This code outlines how we were able to merge our two data sets using Pandas.*
