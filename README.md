@@ -179,7 +179,7 @@ Bozzinhton, aka Linh, is a senior at Lehigh studying finance, business analytics
 <br><br><br>
 <img src="pics/editedme.png" alt="Bozzler" width="300"/>
 <br>
-Bozzler, aka Carter, is a senior at Lehigh studying finance. 
+Bozzler, aka Carter, is a senior at Lehigh studying finance. He can be connected [here.](https://www.linkedin.com/in/carter-karinshak-782583220/)
 
 
 ## More 
