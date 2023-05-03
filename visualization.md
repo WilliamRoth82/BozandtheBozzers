@@ -1,6 +1,6 @@
 
 
-## Visualization Code Snippet
+**Visualization Code Example**
 
 *Below is an example of code for one of our graphs. The output of this code outlines the relationship between the average prices of coastal and inland homes within a given zip code compared to sea level. 
 ```python
