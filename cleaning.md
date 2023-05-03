@@ -1,4 +1,4 @@
-# Cleaning
+
 
 **Located on this page are some of the code snippets that proved to be crucial to the success of our project.**
 
