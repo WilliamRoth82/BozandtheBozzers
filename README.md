@@ -76,7 +76,19 @@ Any general information here
 Info here
 
 ```python
-print(test)
+# Merge two data sets
+merged_data = pd.merge(transposed_data, filtered_data, how='outer', left_index=True, right_index=True)
+merged_data.rename(columns={'Year': 'Date'}, inplace=True)
+merged_data.index = merged_data.index.rename('Date')
+
+merged_data.to_csv('inputs/merged_data.csv')
+
+print(merged_data.head())
+filtered_merged_data = merged_data.loc['2010-01':'2021-06']
+
+print(filtered_merged_data.head())
+
+filtered_merged_data.to_csv('inputs/filtered_merged_data.csv')
 ```
 
 
