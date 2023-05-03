@@ -75,7 +75,7 @@ This section includes code we felt was critical to highlight due to its importan
 - [Visualizations](visualization)
 - [Regression](Regression/regression.md)
 
-[More details are provided in the Appendix](page2).
+[Information about our Zip Codes can be found here](page2).
 
 ## Analysis of Our Findings <a name="section2"></a>
 
@@ -167,19 +167,19 @@ Ultimately, we set out to measure the possible correlation between the global se
 
 <img src="pics/Bos.png" alt="Boz" width="300"/>
 <br>
-The Boz, aka Andrew, is a senior at Lehigh studying finance and business information systems. He can be connected [here.](https://www.linkedin.com/in/andrew-bosland-1bb1a6174/)
+The Boz, aka Andrew, is a senior at Lehigh studying finance and business information systems. He can be contacted [here.](https://www.linkedin.com/in/andrew-bosland-1bb1a6174/)
 <br><br><br>
 <img src="pics/Will.png" alt="Bozymandias" width="300"/>
 <br>
-Bozymandias, aka Will, is a senior at Lehigh studying finance, real estate, and business information systems. He can be connected [here.](https://www.linkedin.com/in/william-rothpletz) <br>
+Bozymandias, aka Will, is a senior at Lehigh studying finance, real estate, and business information systems. He can be contacted [here.](https://www.linkedin.com/in/william-rothpletz) <br>
 <br><br><br>
 <img src="pics/Linh Thai.png" alt="Bozzinhton" width="300"/>
 <br>
-Bozzinhton, aka Linh, is a senior at Lehigh studying finance, business analytics, business information systems, and Chinese. She can be connected [here.](https://www.linkedin.com/in/mlinhtthai/)
+Bozzinhton, aka Linh, is a senior at Lehigh studying finance, business analytics, business information systems, and Chinese. She can be contacted [here.](https://www.linkedin.com/in/mlinhtthai/)
 <br><br><br>
 <img src="pics/editedme.png" alt="Bozzler" width="300"/>
 <br>
-Bozzler, aka Carter, is a senior at Lehigh studying finance. He can be connected [here.](https://www.linkedin.com/in/carter-karinshak-782583220/)
+Bozzler, aka Carter, is a senior at Lehigh studying finance. He can be contacted [here.](https://www.linkedin.com/in/carter-karinshak-782583220/)
 
 
 ## More 
