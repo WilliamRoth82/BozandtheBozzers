@@ -106,7 +106,7 @@ Blah blah
 
 
 
-## About the team
+## Meet the team
 
 <img src="pics/julio.jpg" alt="Boz" width="300"/>
 <br>
