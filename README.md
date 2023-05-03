@@ -171,7 +171,7 @@ The Boz, aka Andrew, is a senior at Lehigh studying finance and business informa
 <br><br><br>
 <img src="pics/Will.png" alt="Bozymandias" width="300"/>
 <br>
-Bozymandias, aka Will, is a senior at Lehigh studying finance, real estate, and business information systems <br>
+Bozymandias, aka Will, is a senior at Lehigh studying finance, real estate, and business information systems. He can be connected [here.](https://www.linkedin.com/in/william-rothpletz) <br>
 <br><br><br>
 <img src="pics/Linh Thai.png" alt="Bozzinhton" width="300"/>
 <br>
