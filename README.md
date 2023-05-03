@@ -117,7 +117,9 @@ Lastly, we thought it was important to close our analysis by examining the obser
 
 Our linear regression formulas and model results are below:
 <br><br>
+
 $$Price \sim GMSL_{noGIA} \times Q("Inland/Coastal") + C(Pair)$$
+
 <br><br>
 
 ![](outputs/Linear output.png)
@@ -126,11 +128,12 @@ The simple linear regression coefficients indicate that 1 unit increase in GMSL_
 <br><br>
 
 $$LogPrice \sim GMSL_{noGIA} * Q("Inland/Coastal") + C(Pair)$$
+
 <br><br>
 ![](outputs/Linear-log output.png)
 <br><br>
 The linear regression coefficients with log(price) indicate that a 1 unit increase in GMSL_noGIA sea level measurement (mm) is associated with 0.45% higher in housing prices. Housing prices are about 1.31% lower for cases when houses are coastal than when they are inland. The log(price) seems to produce better results than the other model based on the smaller standard error and higher R-squared figures.
-<br>
+<br><br>
 In both formulas, the interaction term between sea level measurement and the categorical variable Inland/Coastal is negative, which means that the effect of GMSL_noGIA on the outcome variable is greater for the "Inland" category compared to the "Coastal" category. Both models have negative skewness, which means the housing price data is skewed left. Both have a large kurtosis (>3), making the distribution of the data more resemble a thin “bell” with a high peak.
 
 <br><br>
