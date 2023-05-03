@@ -74,7 +74,7 @@ This is a subsection, formatted in heading 3 style
 <br><br>
 Some analysis here
 
-### Price Distribution <a name="subsec2-2"></a>
+### **Price Distribution** <a name="subsec2-2"></a>
 
 Examining our data with regard to housing prices, it is clear that people pay a premium to live in areas with closer proximity to the ocean as the median house price of a coastal home is over $50,000 higher than that of the median for inland homes. This observation made sense to our team given that many people view living close to the ocean to be a luxury and explains why the median home prices currently trend higher for coastal homes than inland. However, coastal homes in our dataset also tend to have a much smaller range with regard to their median housing prices. While our intuition may lead us to believe that the range for coastal homes should be broader, given that some of the most expensive homes tend to be right on the water, we believe that this range will actually continue to consolidate even further in the future as sea level continues to rise.
 
