@@ -1,6 +1,6 @@
 # Cleaning
-**Located on this page are some of the.
 
+**Located on this page are some of the code snippets that proved to be crucial to the success of our project.**
 
 
 *This code outlines how we were able to merge our two data sets using Pandas.*
@@ -61,7 +61,7 @@ for i in range(0, len(Combined), 2):
 transposed_filtered_zip = transposed_filtered_zip.sort_values(by='Pair')
 ```
 
-*Lastly, we rearranged our data utilizing the Pandas melt function to rearrange our data for our analysis.* 
+*Lastly, we rearranged our data utilizing the Pandas melt function to finalize our data for our analysis.* 
 ```python
 # Melt dataset - Rearrange data
 transposed_filtered_zip = transposed_filtered_zip.iloc[8:]
