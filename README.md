@@ -137,7 +137,10 @@ The linear regression coefficients with log(price) indicate that a 1 unit increa
 In both formulas, the interaction term between sea level measurement and the categorical variable Inland/Coastal is negative, which means that the effect of GMSL_noGIA on the outcome variable is greater for the "Inland" category compared to the "Coastal" category. Both models have negative skewness, which means the housing price data is skewed left. Both have a large kurtosis (>3), making the distribution of the data more resemble a thin “bell” with a high peak.
 
 <br><br>
-Finally, in an attempt to predict prices for inland and coastal homes in our test dataset from 2017 - 2021 given given a rise in sea level, we created the two scatterplots of our predicted prices over the five years and plotted the trend lines of the results. The difference between the two graphs is that the first uses just our predicted prive for the period while the second takes the log of our predicted price. We chose to make this second graph because we though it may help to linearize the relationship between our two variables.
+[Our house predictions for the holdout period 2017 - 2021](outputs/combined_predict.csv)
+<br><br>
+
+Finally, given the prediction results, we created the two scatterplots of our predicted prices over the five years and plotted the trend lines of the results. The difference between the two graphs is that the first uses just our predicted prive for the period while the second takes the log of our predicted price. We chose to make this second graph because we though it may help to linearize the relationship between our two variables.
 
 ![](graphs/predprice_vs_GMSL_noGIA_coastal_inland.png)
 <br><br>
