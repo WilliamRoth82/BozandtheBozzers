@@ -70,7 +70,7 @@ To prepare our data for subsequent visualiation, we had to:
 ## Methodology <a name="meth"></a>
 
 This section includes code we felt was critical to highlight due to its importance in various steps of our analysis. We have divided the code into three subsections:
-- [Cleaning](page2)
+- [Cleaning](cleaning)
 - Visualizations
 - Regression
 
