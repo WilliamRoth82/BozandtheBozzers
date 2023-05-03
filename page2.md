@@ -3,7 +3,7 @@ Appendix:
 
 Locations (Comparables within 100k Median Home Value)
 
-**Alabama**
+**Alabama
 
 Mobile:
 - Inland: 36576
