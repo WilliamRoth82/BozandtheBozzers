@@ -71,8 +71,8 @@ To prepare our data for subsequent visualiation, we had to:
 
 This section includes code we felt was critical to highlight due to its importance in various steps of our analysis. We have divided the code into three subsections:
 - [Cleaning](cleaning)
-- Visualizations
-- Regression
+- [Visualizations](visualization)
+- [Regression](regression)
 
 ### Cleaning <a name="methclean"></a>
 
