@@ -1,6 +1,6 @@
 
 
-**Cleaning Code Snippets
+**Cleaning Code Snippets**
 
 
 *This code outlines how we were able to merge our two data sets using Pandas.*
