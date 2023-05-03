@@ -157,37 +157,30 @@ zip_sea_new.to_csv('inputs/zip_sea_new.csv', index=False)
 Info here
 
 ```python
-print(placeholder)
+#4
+# Calculate mean price for each GMSL_noGIA value and group
+mean_prices = zip_sea.groupby(['GMSL_noGIA', 'Inland/Coastal'])['Price'].mean().reset_index()
+
+# Plot the scatterplot
+plt.figure(figsize=(12, 6))
+sns.scatterplot(x="GMSL_noGIA", y="Price", hue="Inland/Coastal", data=mean_prices)
+plt.title("Mean Price vs GMSL_noGIA for Coastal and Inland Properties")
+
+# Add linear regression lines for each group
+coastal_data = mean_prices[mean_prices["Inland/Coastal"] == 1]
+inland_data = mean_prices[mean_prices["Inland/Coastal"] == 0]
+
+sns.regplot(x="GMSL_noGIA", y="Price", data=inland_data, scatter=False, label="Inland")
+sns.regplot(x="GMSL_noGIA", y="Price", data=coastal_data, scatter=False, label="Coastal")
+
+plt.legend()
+plt.savefig("graphs/mean_price_vs_GMSL_noGIA.png")
+plt.show()
 ```
 
 ### Regression <a name="methreg"></a>
 
 Info here
-
-```python
-# Load the datasets using the given file paths
-zip_sea = pd.read_csv('inputs/zip_sea.csv')
-zip_sea_new = pd.read_csv('inputs/zip_sea_new.csv')
-
-# Replace missing values with NaN
-zip_sea['Price'] = pd.to_numeric(zip_sea['Price'], errors='coerce')
-zip_sea_new['Price'] = pd.to_numeric(zip_sea_new['Price'], errors='coerce')
-
-# Create the model formula
-formula = 'Price ~ GMSL_noGIA * Q("Inland/Coastal") + C(Pair)'
-
-# Create and fit the model using the training set (zip_sea.csv)
-model = smf.ols(formula, data=zip_sea).fit()
-
-# Evaluate the model using the testing set (zip_sea_new.csv) and calculate the R-squared score
-zip_sea_new['PredPrice'] = model.predict(zip_sea_new)
-
-# Save the predictions to a file called predict.csv in the outputs folder
-zip_sea_new.to_csv('outputs/predict.csv', index=False)
-
-# Output the model summary
-print(model.summary())
-```
 
 ```python
 # Load the datasets using the given file paths
