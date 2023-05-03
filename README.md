@@ -5,14 +5,17 @@
 1. [Introduction](#introduction)
 2. [Our Data](#dataclean)
 3. [Methodology](#meth)
-4. [Analysis of Our Findings](#section2)
+    1. [Cleaning](#methclean)
+    2. [Visualizations](#methviz)
+    3. [Regression](#methreg)
+5. [Analysis of Our Findings](#section2)
     1. [Price History](#subsec2-1)
     2. [Price Distribution](#subsec2-2)
     3. [Mean Price Coastal vs. Inland](#subsec2-3)
     4. [Price vs Sea Level](#subsec2-4)
     5. [Correlation](#subsec2-5)
-5. [Future Predictions](#section3)
-6. [Summary](#summary)
+6. [Future Predictions](#section3)
+7. [Summary](#summary)
 
 ## Introduction  <a name="introduction"></a>
 
@@ -41,6 +44,33 @@ Finally, to obtain our comparable inland and coastal properties, we used https:/
 Info about our data and how we cleaned it here. How we sourced it is done. 
 
 ## Methodology <a name="meth"></a>
+
+Any general information here
+
+### Cleaning <a name="methclean"></a>
+
+Info here
+
+```python
+print(test)
+```
+
+
+### Visualizations <a name="methviz"></a>
+
+Info here
+
+```python
+print(placeholder)
+```
+
+### Regression <a name="methreg"></a>
+
+Info here
+
+```python
+print(placeholderlol)
+```
 
 Here is some code that we used to develop our analysis. Blah Blah. [More details are provided in the Appendix](page2).
  
