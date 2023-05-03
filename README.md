@@ -7,7 +7,7 @@
 3. [Methodology](#meth)
     1. [Cleaning](cleaning)
     2. [Visualizations](visualization)
-    3. [Regression](regression)
+    3. [Regression](Regression/regression.md)
 5. [Analysis of Our Findings](#section2)
     1. [Price History](#subsec2-1)
     2. [Price Distribution](#subsec2-2)
@@ -91,7 +91,7 @@ Examining our data with regard to housing prices, it is clear that people pay a 
 ![](graphs/price_distribution_coastal_vs_inland.png)
 <br><br>
 
-A multitude of negative side effects can be attributed to increases in sea level, including factors like the increased severity and frequency of hurricanes, which can result in a stark impact on the devaluation of coastal properties. As sea level rises, flooding and other natural weather phenomena will continue to wreak havoc on these coastal properties which can lead to extensive damage and disincentivize people to purchase or build on these properties in the future. Given that sea level rise has been on an upwards trend for decades, and experts expect this trend to continue into the future if action isn’t taken, we believe that the median price of coastal homes will continue to decrease while inland homes will become more sought after. As a result, the range and median prices of coastal homes will continue to shrink as many people will not be willing to take the risk to invest large sums of money in these areas. This belief is supported by our findings in our upcoming graphs, as it is clear that rise in sea level has a negative impact on median prices for coastal homes while increasing the value of properties in adjacent inland zip codes.
+A multitude of negative side effects can be attributed to increases in sea level, including factors like [the increased severity and frequency of hurricanes](https://www.c2es.org/content/hurricanes-and-climate-change/), which can result in a stark impact on the devaluation of coastal properties. As sea level rises, flooding and other natural weather phenomena will continue to wreak havoc on these coastal properties which can lead to [extensive damage and disincentivize people to purchase or build on these properties in the future](https://anderson-review.ucla.edu/is-the-1-trillion-coastal-housing-market-a-future-financial-crisis/). Given that sea level rise has been on an upwards trend for decades, and experts expect this trend to continue into the future if action isn’t taken, we believe that the median price of coastal homes will continue to decrease while inland homes will become more sought after. As a result, the range and median prices of coastal homes will continue to shrink as many people will not be willing to take the risk to invest large sums of money in these areas. This belief is supported by our findings in our upcoming graphs, as it is clear that rise in sea level has a negative impact on median prices for coastal homes while increasing the value of properties in adjacent inland zip codes.
 
 ### Mean Price Coastal vs. Inland <a name="subsec2-3"></a>
 
