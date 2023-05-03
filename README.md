@@ -4,7 +4,7 @@
 ## Table of contents
 1. [Introduction](#introduction)
 2. [Our Data](#dataclean)
-3. [Methodology](#meth)
+3. [Methodology & Sample Code](#meth)
     1. [Cleaning](cleaning)
     2. [Visualizations](visualization)
     3. [Regression](Regression/regression.md)
@@ -136,10 +136,9 @@ $$LogPrice \sim GMSL_{noGIA} * Q("Inland/Coastal") + C(Pair)$$
 The linear regression coefficients with log(price) indicate that a 1 unit increase in GMSL_noGIA sea level measurement (mm) is associated with 0.45% higher in housing prices. Housing prices are about 1.31% lower for cases when houses are coastal than when they are inland. The log(price) seems to produce better results than the other model based on the smaller standard error and higher R-squared figures.
 <br><br>
 In both formulas, the interaction term between sea level measurement and the categorical variable Inland/Coastal is negative, which means that the effect of GMSL_noGIA on the outcome variable is greater for the "Inland" category compared to the "Coastal" category. Both models have negative skewness, which means the housing price data is skewed left. Both have a large kurtosis (>3), making the distribution of the data more resemble a thin “bell” with a high peak.
-
-<br><br>
-[Our house predictions for the holdout period 2017 - 2021](outputs/combined_predict.csv)
-<br><br>
+<br>
+[Our house price predictions for the holdout period 2017 - 2021](outputs/combined_predict.csv)
+<br>
 
 Finally, given the prediction results, we created the two scatterplots of our predicted prices over the five years and plotted the trend lines of the results. The difference between the two graphs is that the first uses just our predicted prive for the period while the second takes the log of our predicted price. We chose to make this second graph because we though it may help to linearize the relationship between our two variables.
 
