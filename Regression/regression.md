@@ -1,6 +1,6 @@
 **Regression Code Snippets**
 
-
+*This is how we ran our linear regression model. Attached is our code and full model results:*
 ```python
 import pandas as pd
 import numpy as np
@@ -100,7 +100,7 @@ print(model.summary())
     strong multicollinearity or other numerical problems.
 
 
-
+*This code snippet is our second model with log(price) with full model results:*
 ```python
 import pandas as pd
 import numpy as np
@@ -202,7 +202,7 @@ print(model.summary())
     strong multicollinearity or other numerical problems.
     
 
-
+*This is when we combine the predictions from both models to better compare model accuracy:*
 ```python
 import csv
 
@@ -234,7 +234,7 @@ print("Combined data saved to 'combined_predict.csv'")
     Combined data saved to 'combined_predict.csv'
     
 
-
+*Please see below for our prediction visualizations:*
 ```python
 import pandas as pd
 import seaborn as sns
