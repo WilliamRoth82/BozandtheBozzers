@@ -115,10 +115,9 @@ Lastly, we thought it was important to close our analysis by examining the obser
 
 ## Linear Regression and Price Predictions <a name="regression"></a>
 
-Our linear regression formulas and model results are below:
-<br><br>
+Our linear regression formulas and model results are below. We included the interaction terms GMSL_noGIA and Inland/Coastal and the categorical variable Pair, but we chose to show the model coefficients for the interaction terms only. Full regression model results can be observed [here](Regression/regression.md):
 
-$Price \sim GMSL_{noGIA} \times Q("Inland/Coastal") + C(Pair)$
+$$Price \sim GMSL_{noGIA} \times Q("Inland/Coastal") + C(Pair)$$
 
 <br><br>
 
@@ -132,9 +131,9 @@ $$LogPrice \sim GMSL_{noGIA} * Q("Inland/Coastal") + C(Pair)$$
 <br><br>
 ![](outputs/Linear-log output.png)
 <br><br>
-The linear regression coefficients with log(price) indicate that a 1 unit increase in GMSL_noGIA sea level measurement (mm) is associated with 0.45% higher in housing prices. Housing prices are about 1.31% lower for cases when houses are coastal than when they are inland. The log(price) seems to produce better results than the other model based on the smaller standard error and higher R-squared figures.
+The linear regression coefficients with log(price) indicate that a 1 unit increase in GMSL_noGIA sea level measurement (mm) is associated with 0.45% higher in housing prices. Housing prices are about 1.31% lower for cases when houses are coastal than when they are inland. The log(price) seems to produce better results than the other model based on the smaller standard errors and higher R-squared results.
 <br><br>
-In both formulas, the interaction term between sea level measurement and the categorical variable Inland/Coastal is negative, which means that the effect of GMSL_noGIA on the outcome variable is greater for the "Inland" category compared to the "Coastal" category. Both models have negative skewness, which means the housing price data is skewed left. Both have a large kurtosis (>3), making the distribution of the data more resemble a thin “bell” with a high peak.
+In both models we tried, the interaction terms between the sea level measurement and the categorical variable Inland/Coastal is negative, which means that the effect of GMSL_noGIA on the outcome variable is greater for the "Inland" category compared to the "Coastal" category. Both models have negative skewness, which means the housing price data is skewed left. Both have a large kurtosis (>3), making the distribution of the data more resemble a thin “bell” with a high peak.
 
 <br>
 [Our house price predictions for the holdout period 2017 - 2021](outputs/combined_predict.csv)
@@ -152,11 +151,14 @@ To continue, our second graph displays the same scatter plot with the exception 
 <br><br>
 
 ## Further Discussion and Next Steps <a name="future"></a>
-Regarding further discussion and continuation of our research and analysis, some possible considerations include improving our data collection method. We plan to collect more historical data for the housing prices and zip codes that span more US regions. Currently, we only have 2 zip codes for each selected city that indicates whether it is coastal or inland. We plan to incorporate more zip codes for each region and analyze the magnitude of impact on housing prices if a house was further inland or nearer the shore. It would also be interesting to see the price trend during the 2007-2008 housing mortgage crisis. As part of our explanatory research into the model correlations, we acknowledge other factors that could be influencing our housing prices - business presence, food and entertainment activities, as well as regional price differences in the zip codes. We may also experiment with other methods of regressing the price data and improving our model accuracy and prediction results. This could be building a pipeline for data preprocessing and normalization, feature selection and creation, and different regression models (e.g. Lasso, Ridge). We may utilize machine learning techniques and try models such as neural networks and random forest classification and regression. 
+For future research and analysis, some possible considerations include improving our data collection method. We plan to collect more historical data for the housing prices and zip codes that span more US regions. Currently, we only have 2 zip codes for each selected city that indicate whether it is coastal or inland. We plan to incorporate more zip codes for each region and analyze the magnitude of impact on housing prices if a house was further inland or nearer the shore. It would also be interesting to see the price trend during the 2007-2008 housing mortgage crisis. 
+As part of our explanatory research into the model correlations, we acknowledge other factors that could be influencing our housing prices - business presence, food and entertainment activities, as well as fundamental regional price differences. We may also experiment with other methods of regressing the price data and improving our model accuracy and prediction results. This could be building a pipeline for data preprocessing and normalization, feature selection and creation, and different regression models (e.g. Lasso, Ridge). We may utilize machine learning techniques and try models such as neural networks and random forest classification and regression. 
 
 ## Summary <a name="summary"></a>
 
-Ultimately, we set out to measure the possible correlation between the global sea level change and the listing prices for U.S. houses in coastal regions in an attempt to measure the relationship between rising sea levels and coastal housing prices. By using Zillow's median housing prices per zipcode from 2013 - 2017 and global sea level data over the same period we were able to conduct a regression analysis. After cleaning, filtering, and merging the data we coded a series of visualizations to explore the relationships between our variabels. These visualizations that we explored above uncovered interesting patterns about our data. This included large price jumps in coastal areas in 2013 that we believe likely to be due to reactions to Hurricane Sandy. We also notably created a linear regression between our coastal and inland housing prices and the change in sea level. This graph displayed that as the sea level rose inland housing prices grew at a greater rate than comparable coastal properties. This supported our initial hypothesis as it shows coastal properties being valued higher at lower sea levels, but lower than many comparable inland properties when sea levels signicantly rise. Additionally, because we were unable to answer all of the questions in the intial scope of our proposal, we attempted to use our regression model to predict housing prices for coastal and inland properties from 2017 - 2021 given the rise in sea level over the period and actually obtained fairly accurate results as well as additional data to support our hypothesis. Finally, for our actual regression, we used the equation <br> $$Price \sim GMSL_{noGIA} \times Q("Inland/Coastal") + C(Pair)$$ <br> In this equation, we notably treated the Pair variable as a categorical variable to help improve our regressions accuracy by treating each comparable pair as its own category. From this regression, we obtained a β of -1397.5213 for the interaction variable of GMSL_noGIA:Q("Inland/Coastal"). This supports our alternate hypothesis that the β coefficient is not equal to 0. Additionally, the negative sign of the β further supports our idea that as sea levels rise inland housing prices are rising faster than comparable coastal housing prices.
+Ultimately, we set out to measure the possible correlation between the global sea level change and the listing prices for U.S. houses in coastal regions in an attempt to measure the relationship between rising sea levels and coastal housing prices. By using Zillow's median housing prices per zipcode from 2013 - 2017 and global sea level data over the same period we were able to conduct a regression analysis. After cleaning, filtering, and merging the data we coded a series of visualizations to explore the relationships between our variabels. These visualizations that we explored above uncovered interesting patterns about our data. This included large price jumps in coastal areas in 2013 that we believe likely to be due to reactions to Hurricane Sandy. We also notably created a linear regression between our coastal and inland housing prices and the change in sea level. This graph displayed that as the sea level rose inland housing prices grew at a greater rate than comparable coastal properties. This supported our initial hypothesis as it shows coastal properties being valued higher at lower sea levels, but lower than many comparable inland properties when sea levels signicantly rise. Additionally, because we were unable to answer all of the questions in the intial scope of our proposal, we attempted to use our regression model to predict housing prices for coastal and inland properties from 2017 - 2021 given the rise in sea level over the period and actually obtained fairly accurate results as well as additional data to support our hypothesis. Finally, for our actual regression, we used the equation  
+
+$$Price \sim GMSL_{noGIA} \times Q("Inland/Coastal") + C(Pair)$$  In this equation, we notably treated the Pair variable as a categorical variable to help improve our regressions accuracy by treating each comparable pair as its own category. From this regression, we obtained a β of -1397.5213 for the interaction variable of GMSL_noGIA:Q("Inland/Coastal"). This supports our alternate hypothesis that the β coefficient is not equal to 0. Additionally, the negative sign of the β further supports our idea that as sea levels rise inland housing prices are rising faster than comparable coastal housing prices.
 
 In conclusion, we recognize that there are numerous other factors likely contributing to the difference in the rise in housing prices between comparable inland and coastal properties that we cannot account for in this analysis, but we are confident that our report shows there is a strong association between the rise in global sea level and median coastal housing prices in cities across the United States. 
 
@@ -168,7 +170,7 @@ The Boz, aka Andrew, is a senior at Lehigh studying finance and business informa
 <br><br><br>
 <img src="pics/Will.png" alt="Bozymandias" width="300"/>
 <br>
-Bozymandias, aka Will, is a senior at Lehigh studying finance, real estate, and business information systems. He can be contacted [here.](https://www.linkedin.com/in/william-rothpletz) <br>
+Bozymandias, aka Will, is a senior at Lehigh studying finance, real estate, and business information systems. He can be contacted [here.](https://www.linkedin.com/in/william-rothpletz)
 <br><br><br>
 <img src="pics/Linh Thai.png" alt="Bozzinhton" width="300"/>
 <br>
@@ -177,6 +179,10 @@ Bozzinhton, aka Linh, is a senior at Lehigh studying finance, business analytics
 <img src="pics/editedme.png" alt="Bozzler" width="300"/>
 <br>
 Bozzler, aka Carter, is a senior at Lehigh studying finance. He can be contacted [here.](https://www.linkedin.com/in/carter-karinshak-782583220/)
+<br><br><br>
+<img src="pics/don2.png" alt="Don" width="300"/>
+<br>
+Professor Don Bowen is the mentor and instructor of this final project in FIN 377 - Data Science for Finance at Lehigh University. He can be contacted [here.](https://www.linkedin.com/in/donbowen-lehigh/)
 
 ## More 
 
