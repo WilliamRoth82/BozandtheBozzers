@@ -180,7 +180,7 @@ Bozzinhton, aka Linh, is a senior at Lehigh studying finance, business analytics
 <br>
 Bozzler, aka Carter, is a senior at Lehigh studying finance. He can be contacted [here.](https://www.linkedin.com/in/carter-karinshak-782583220/)
 <br><br><br>
-<img src="pics/don2.png" alt="Don" width="300"/>
+<img src="pics/don2.jpg" alt="Don" width="300"/>
 <br>
 Professor Don Bowen is the mentor and instructor of this final project in FIN 377 - Data Science for Finance at Lehigh University. He can be contacted [here.](https://www.linkedin.com/in/donbowen-lehigh/)
 
